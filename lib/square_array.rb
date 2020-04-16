@@ -1,6 +1,9 @@
 def square_array(array)
-  array.each {|index|
-    index.sqrt
-  }
+  length = array.length
+  idx = 0
 
+  while idx < length do
+    curnum = array[idx]
+    array[idx] = curnum * curum
+  end
 end
