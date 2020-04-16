@@ -7,4 +7,5 @@ def square_array(array)
     array[idx] = curnum ** 2
     idx += 1
   end
+  return array
 end
