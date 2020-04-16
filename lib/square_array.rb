@@ -6,6 +6,6 @@ def square_array(array)
     curnum = array[idx]
     array[idx] = curnum ** 2
     idx += 1
-    array
   end
+  return array
 end
