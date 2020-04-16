@@ -4,6 +4,7 @@ def square_array(array)
 
   while idx < length do
     curnum = array[idx]
-    array[idx] = curnum * curum
+    array[idx] = curnum * curnum
+    idx += 1
   end
 end
