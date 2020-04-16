@@ -8,5 +8,4 @@ def square_array(array)
     idx += 1
     array
   end
-  return array
 end
